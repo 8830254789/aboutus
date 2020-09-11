@@ -1,0 +1,248 @@
+/* XL Device: 1200px */
+@media (min-width:1200px) and (max-width:1920px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 1260px;
+    }
+}
+
+/* LG Device: 992px */
+@media (min-width:992px) and (max-width:1199px) {
+
+    .header ul li {
+        font-size: 14px;
+        margin: 0px 10px;
+    }
+
+    .header ul li:last-child {
+        margin-left: 15px;
+        padding: 0px 6px;
+    }
+
+    .about-inner.sec-pad-top.sec-pad-bottom {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .team .container {
+        width: 925px;
+        transform: scale(1.04);
+    }
+
+}
+
+/* MD Device: 768px */
+@media (min-width:768px) and (max-width:991px) {
+    .home-content p br {
+        display: none;
+    }
+
+    .service-item h4 {
+        font-size: 20px;
+    }
+
+    .service-item p {
+        font-size: 16px;
+    }
+
+    .about-inner.sec-pad-top.sec-pad-bottom {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .about-img {
+        height: 430px;
+    }
+
+    .about-img img {
+        height: 100%;
+    }
+
+    .section-title h3 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .section-title p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+    .about-content h4 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 15px;
+    }
+
+    .team .container {
+        width: 700px;
+        transform: scale(1.04);
+    }
+
+    .team .container:hover
+    {
+        transform: scale(1.04);
+    }
+}
+
+/* Extra Samll Device. */
+@media (max-width:767px) {
+
+    .home-content h1 {
+        font-size: 52px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 5px 0 50px 0;
+    }
+
+    .home-content p br {
+        display: none;
+    }
+
+    .home-btn {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .sec-pad-bottom {
+        padding-bottom: 100px;
+    }
+
+    .sec-pad-top {
+        padding-top: 80px;
+    }
+
+    .service-item {
+        padding: 40px 30px 25px 30px;
+    }
+
+    .service-item p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .about-img {
+        height: 450px;
+        width: 100%;
+    }
+
+    .about-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .section-title h3 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .section-title p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .about-content h4 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 15px;
+    }
+
+    .portfolio-item {
+        margin-top: 30px;
+        height: 480px;
+        width: 100%;
+    }
+
+    img.portfolio-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-item:hover {
+        transform: scale(1.04);
+    }
+
+    .portfolio-item:hover .portfoilo-content {
+        background: transparent;
+        transform: scale(.99);
+    }
+
+    .portfolio .section-title p {
+        margin-bottom: 20px;
+    }
+
+    .counter .section-title h3 {
+        font-size: 32px;
+    }
+
+    .fact span {
+        font-size: 60px;
+    }
+
+    .fact P {
+        font-size: 16px;
+    }
+
+    .team .container {
+        transform: scale(1.04);
+        width: 89%;
+    }
+
+
+    .testimonial-content p {
+        font-size: 26px;
+        line-height: 44px;
+    }
+
+    .testimonial-person-details {
+        margin: 50px 0 35px 0;
+    }
+
+    .team-person .team-inner ul.person-contact-info li a {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .team-person .team-inner ul.person-contact-info li a:hover
+    {
+        transform: scale(.50);
+    }
+
+}
+
+
+
+/* SM Device: 550px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .portfolio-item {
+        height: initial;
+        width: initial;
+    }
+
+    .portfoilo-content-inner h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .service-item h4 {
+        font-size: 22px;
+    }
+}

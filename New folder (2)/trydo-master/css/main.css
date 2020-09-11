@@ -1,0 +1,661 @@
+/* =========================================================
+Template Name: Water Drop HTML 5 Template
+Template URI: https://asifjalil.xyz/water-drop
+Description: Water Drop HTML 5 Template
+Author: Asif Jalil
+Author URI: https://asifjalil.xyz
+Version: 1.0
+========================================================= */
+
+/* CSS Index
+-----------------------------------------------------
+01. Template Default CSS
+02. header css
+03. home CSS
+04. service CSS
+05. about CSS
+06. portfolio CSS
+07. counter CSS
+
+
+
+
+
+
+
+
+*/
+
+/* ======================================================
+Google Fonts
+====================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ...............................................
+01. Template Default CSS
+............................................... */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sec-pad-top {
+  padding-top: 100px;
+}
+
+.sec-pad-bottom {
+  padding-bottom: 120px;
+}
+
+/* ==================================================
+Author's Custom Styles
+================================================== */
+
+/* ...............................................
+02. header css
+............................................... */
+.header {
+  position: absolute;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 2;
+}
+
+.header ul {
+  padding-top: 10px;
+}
+
+.header ul li {
+  font-family: 'Poppins', sans-serif;
+  color: #c6c9d8;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin: 0 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.header ul li:hover {
+  color: #F9004D;
+}
+
+.header ul li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #F9004D;
+  transition: 0.3s;
+}
+
+.header ul li:hover:after {
+  width: 100%;
+}
+
+.header ul li:first-child:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: #F9004D;
+  transition: 0.3s;
+}
+
+.header ul li:last-child {
+  margin-left: 35px;
+  border: 2px solid #B1B4C1;
+  padding: 0px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+
+.header ul li:last-child:after {
+  content: none;
+}
+
+.header ul li:last-child:hover {
+  background: #F9004D;
+  border: 2px solid #F9004D;
+}
+
+.nav-btn {
+  font-family: 'Poppins', sans-serif;
+  color: #c6c9d8;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.nav-btn:hover {
+  color: #fff;
+}
+
+/* ...............................................
+03. home CSS
+............................................... */
+
+.home {
+  position: relative;
+  background: url(../img/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 620px;
+  color: #fff;
+  z-index: 1;
+}
+
+.home:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 1, 12, 0.6);
+  z-index: -1;
+}
+
+.home-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 70px;
+  display: inline-block;
+  background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-content p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #C6C9D8;
+  line-height: 40px;
+  margin: 5px 0 70px 0;
+}
+
+
+.home-btn {
+  padding: 15px 40px;
+  font-size: 16px;
+  color: #c6c9d8;
+  font-weight: 500;
+  border: 2px solid #B1B4C1;
+  text-transform: uppercase;
+  border-radius: 6px;
+  letter-spacing: 2px;
+}
+
+.home-btn:hover {
+  background: #F9004D;
+  border: 2px solid #F9004D;
+  color: #fff;
+}
+
+/* ...............................................
+04. service CSS
+............................................... */
+
+.service-item {
+  background: #f6f6f6;
+  padding: 60px 45px 40px 45px;
+  margin: 15px 0;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.service-item:hover {
+  margin-top: 10px;
+}
+
+.service-item:hover .service-icon svg,
+.service-item:hover.service-item h4,
+.service-item:hover.service-item p {
+  color: #fff;
+}
+
+.service-item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #f61b10, #ef0963);
+  ;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.service-item:hover:before {
+  opacity: 1;
+}
+
+.service-icon svg {
+  height: 54px;
+  width: 54px;
+  stroke-width: 1;
+  color: #F9004D;
+  transition: 0.4s;
+}
+
+.service-item h4 {
+  font-size: 24px;
+  color: #1f1f25;
+  text-transform: capitalize;
+  padding: 25px 0 15px 0;
+  transition: 0.4s;
+}
+
+.service-item p {
+  font-size: 18px;
+  color: #5B5B65;
+  line-height: 30px;
+  transition: 0.4s;
+}
+
+/* ...............................................
+05. about CSS
+............................................... */
+.about {
+  background: #F8F9FC;
+}
+
+.about-img img {
+  border-radius: 10px;
+}
+
+.about-inner {
+  margin-left: 20px;
+}
+
+.section-title h3 {
+  font-size: 60px;
+  color: #1F1F25;
+  line-height: 85px;
+  text-transform: capitalize;
+}
+
+.section-title p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #717173;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.about-content h4 {
+  font-size: 30px;
+  line-height: 42px;
+  color: #1f1f25;
+  font-weight: 500;
+}
+
+.about-content p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #1d1d24;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+
+/* ...............................................
+06. portfolio CSS
+............................................... */
+.portfolio-item {
+  position: relative;
+  transition: 0.4s;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.1);
+}
+
+.portfolio-item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  background: linear-gradient(rgba(246, 0, 76, 0.9) 10%, rgba(0, 0, 0, 0.85) 100%);
+  opacity: 0;
+}
+
+.portfolio-item:hover:before {
+  opacity: 1;
+}
+
+.portfolio-item:hover .portfoilo-content {
+  background: transparent;
+  transform: scale(0.91);
+}
+
+.portfoilo-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+}
+
+.portfoilo-content-inner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 40px 50px 40px;
+  color: #fff;
+}
+
+.portfoilo-content-inner span {
+  font-size: 14px;
+  color: #c6c9d8;
+  text-transform: capitalize;
+}
+
+.portfoilo-content-inner h4 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  margin: 20px 0 40px 0;
+}
+
+.portfoilo-content-inner a {
+  font-size: 14px;
+  letter-spacing: .2px;
+  padding: 7px 20px;
+  border: 2px solid #B1B4C1;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* ...............................................
+07. counter CSS
+............................................... */
+.counter {
+  background: #F8F9FC;
+  padding-top: 65px;
+}
+
+.counter .section-title h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1F1F25;
+}
+
+.fact {
+  padding: 0px 30px;
+}
+
+.fact span {
+  font-size: 72px;
+  font-weight: 500;
+  color: #F9004D;
+}
+
+.fact P {
+  font-size: 18px;
+  color: #1D1D24;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/* ...............................................
+05. team CSS
+............................................... */
+
+.team-person {
+  position: relative;
+  margin: 15px 0;
+}
+
+.team-person:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  background: linear-gradient(rgba(246, 0, 76, 0.9) 10%, rgba(0, 0, 0, 0.85) 100%);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.team-person:hover:before {
+  opacity: 1;
+}
+
+.team-person img {
+  border-radius: 6px;
+}
+
+.team-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  padding: 35px 0 45px 40px;
+}
+
+ul.person-contact-info li {
+  font-size: 13px;
+  padding-right: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.45s;
+
+
+}
+
+.team-person:hover ul.person-contact-info li {
+  opacity: 1;
+  visibility: visible;
+}
+
+.team-person:hover ul.person-contact-info li:nth-child(1) {
+  transition-delay: .07692s;
+}
+
+.team-person:hover ul.person-contact-info li:nth-child(2) {
+  transition-delay: .15385s;
+}
+
+.team-person:hover ul.person-contact-info li:nth-child(3) {
+  transition-delay: .23077s;
+}
+
+.person-details {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+
+}
+
+
+.person-details h4 {
+  position: absolute;
+  width: 100%;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  opacity: 0;
+  transition: 0.35s;
+  bottom: 30px;
+}
+
+.person-details span {
+  position: absolute;
+  display: inline-block;
+  font-size: 14px;
+  color: #c6c9d8;
+  text-transform: capitalize;
+  opacity: 0;
+  transition: 0.35s;
+  bottom: 0px;
+}
+
+.team-person:hover .person-details h4 {
+  margin-bottom: 15px;
+  transition-delay: .07s;
+  opacity: 1;
+}
+
+.team-person:hover .person-details span {
+  margin-bottom: 15px;
+  transition-delay: .15s;
+  opacity: 1;
+}
+
+/* ...............................................
+08. testimonial CSS
+............................................... */
+.testimonial {
+  background: #F8F9FC;
+}
+
+.testimonial-content p {
+  font-size: 36px;
+  font-weight: 500;
+  color: #18181B;
+  line-height: 58px;
+  padding: 0 9%;
+}
+
+.testimonial-person-details {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 75px 0 55px 0;
+}
+
+.testimonial-person-details .testimonial-person-name {
+  color: #18181b;
+}
+
+.testimonial-person-details .testimonial-person-designation {
+  color: #8c8c8c;
+}
+
+ul.testimonial-person-img {
+  max-width: 530px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+ul.testimonial-person-img li {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...............................................
+08. testimonial CSS
+............................................... */
+
+
+
+
+
+
+
+
+
+
+/* ...............................................
+08. testimonial CSS
+............................................... */
+
+
+
+
+
+
+
+
+
+
+
+/* ...............................................
+08. testimonial CSS
+............................................... */
