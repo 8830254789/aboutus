@@ -44,7 +44,7 @@ footer{
 
 }
 .page-wrapper{
-    background-color: gray;
+    background-color: white;
     min-height:100%;
 }
 .icon{
@@ -64,7 +64,7 @@ footer{
 .inner-section h1{
     color: #fdfdfd;
     font-weight: 900;
-    border:0.0625em solid white ;
+    border:0.0625em transparent white ;
     font-size: 1.2500em;
     text-align: center;
     text-transform: capitalize;
